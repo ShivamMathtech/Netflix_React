@@ -5,11 +5,12 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 // import NetflixIndexComponent from "./components/NetflixIndex";
-import DataBindingComponent from "./components/DataBindingComponent";
+// import DataBindingComponent from "./components/DataBindingComponent";
+import CollectionDataBindingComponent from "./components/CollectionDataBindingComponent";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <DataBindingComponent />
+    <CollectionDataBindingComponent />
   </React.StrictMode>
 );
 
